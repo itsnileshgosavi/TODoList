@@ -1,8 +1,35 @@
-# React + Vite
+# To Do List 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+To Do List is a simple web application that allows users to add, edit, and delete tasks. It is built using React and Tailwind CSS, and uses the Vite build tool for faster development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+
+- React for building the user interface
+- Vite for development
+- Tailwind CSS for styling
+- React Router DOM for routing
+- uuid for generating unique IDs
+
+## Features
+
+- Add, edit, and delete tasks
+- Filter tasks by status
+- Sort tasks by priority
+- Search tasks by title or description
+
+## Installation
+
+To install To Do List, run the following command:
+
+```bash
+npm install
+```
+To run the developement server use the following command:
+
+```bash
+npm run dev
+```
+Then open http://localhost:5173 in your browser.
+
